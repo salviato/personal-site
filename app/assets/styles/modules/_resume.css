@@ -1,0 +1,102 @@
+.resume {
+	box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.2);
+	margin-bottom: 1rem;
+}
+
+.resume-item {
+	position: relative;
+
+	&__period {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+		padding: .8rem 1.2rem;
+		background-color: $mainDarkBlue;
+		color: #fff;
+		font-size: 1rem;
+		text-shadow: 2px 2px 0 rgba(255, 255, 255, .1);
+
+		@mixin atSmall {
+			left: 0;
+			transform: translateX(0);
+			font-size: 1.15rem;
+			padding: 1rem 1.5rem;
+		}
+
+		@mixin atMedium {
+			font-size: 1rem;
+		}
+
+		@mixin atLarge {
+			font-size: 1.15rem;
+		}
+	}
+
+	&__company {
+		text-align: center;
+		margin-top: 5rem;
+		font-size: 1.2rem;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+		font-weight: 500;
+
+		@mixin atSmall {
+			text-align: left;
+			position: absolute;
+			top: .6rem;
+			left: 50%;
+			margin-top: 1.3rem;
+			transform: translateX(-50%);
+			font-size: 1.4rem;
+		}
+
+		@mixin atMedium {
+			font-size: 1.2rem;
+		}
+
+		@mixin atLarge {
+			font-size: 1.4rem;
+		}
+
+		&--f-right {
+			transform: translateX(0);
+
+			@mixin atSmall {
+				left: 32%
+			}
+			@mixin atMedium {
+				left: 39%;
+			}
+
+			@mixin atLarge {
+				left: 32%;
+			}
+		}
+	}
+
+	&__function {
+		font-size: 1.1rem;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+		font-weight: 500;
+		margin-top: 1.5rem;
+		margin-bottom: .5rem;
+
+		@mixin atSmall {
+			margin-top: 6.5rem;
+			margin-bottom: 1rem;
+			font-size: 1.2rem;
+		}
+
+		@mixin atMedium {
+			font-size: 1.1rem;
+		}
+
+		@mixin atLarge {
+			font-size: 1.2rem;
+		}
+	}
+
+	p {;
+		margin-bottom: 1rem;
+	}
+}

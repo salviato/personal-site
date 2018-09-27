@@ -1,0 +1,47 @@
+.primary-nav {
+	
+	&--pull-right {
+		margin-right: -25px;
+
+		@mixin atMedium {
+			float: right;
+			margin-right: auto;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		@mixin clearfix;
+
+	}
+
+	li {
+		list-style: none;
+		display: inline-block;
+		margin-right: 25px;
+		margin-top: 26px;
+		margin-bottom: 10px;
+		padding: 6px 10px;
+		background-color: $mainGray;
+
+		@mixin atMedium {
+			float: left;
+			display: block;
+			padding: 0;
+			background-color: #000;
+		}
+	}
+
+	a {
+		color: #fff;
+		font-weight: 300;
+		font-size: .8rem;
+		text-decoration: none;
+		display: block;
+
+		@mixin atMedium {
+			font-size: 1rem;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.facts {
+	text-align: center;
+
+	&__item {
+		display: block;
+
+		@mixin atMedium {
+			display: inline-block;
+			margin: 0 1.2rem;
+		}
+
+		@mixin atLarge {
+			display: inline-block;
+			margin: 0 2.8rem;
+		}
+	}
+
+	&__detail {
+		color: #fff;
+		text-shadow: 2px 2px 0 rgba(255, 255, 255, .1);
+		font-weight: 500;
+
+		&--large {
+			font-size: 1.8rem;
+			margin-bottom: 0;
+		}
+
+		&--small {
+			font-size: .9rem;	
+			font-weight: 300;
+			margin-bottom: 1.6rem;
+		}
+
+		&--border {
+			display: inline-block;
+			padding: .6em .8em;
+			background-color: $mainGray;
+		}
+	}
+}

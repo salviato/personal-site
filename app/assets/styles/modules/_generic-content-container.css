@@ -1,0 +1,16 @@
+.generic-content-container {
+	p {
+		font-weight: 300;
+		line-height: 1.65; /* TGO: This property do not need rem or px or em */
+		margin: 0 0 1.6rem 0;
+		/* font 1rem */	   /* TGO: There is no font-size because the size is 1rem, defaut */
+
+		@mixin atSmall {
+			font-size: 1.125rem;
+		}
+	}
+
+	p a {
+		font-weight: 700;
+	}
+}

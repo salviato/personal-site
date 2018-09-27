@@ -1,0 +1,24 @@
+.page-section {
+	padding: 1.2rem 0;
+
+	@mixin atMedium {
+		padding: 4.5rem 0;
+		
+	}
+
+	&--logo {
+		background: url('../../assets/images/background_logo-hi-dpi.jpg') center no-repeat;
+		background-size: cover;
+
+	}
+
+	&--dark-blue {
+		background-color: $mainDarkBlue;
+		border-bottom: 10px solid $mainGray;
+	}
+
+	&--gray {
+		background-color: $mainGray;
+		border-bottom: 10px solid $mainDarkBlue;
+	}
+}

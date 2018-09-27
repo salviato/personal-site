@@ -1,0 +1,51 @@
+.feature-item {
+	position: relative;
+	padding-left: 82px;
+
+	&--above {
+
+		@mixin atMedium {
+			padding-bottom: 11.5rem;	
+		}
+	}
+
+	&--below {
+
+		@mixin atMedium {
+			position: absolute;
+			top: 24em;
+		}
+
+		@mixin atLarge {
+			position: absolute;
+			top: 17em;			
+		}
+	}
+
+	&__icon {
+		position: absolute;
+		left: 0;
+		background-color: $mainGray;
+		padding: 3px;
+		border-radius: 10px;
+		transform: scale(.8);
+
+		@mixin atSmall {
+			transform: scale(1);
+		}
+	}
+
+	&__title {
+		font-size: 1.1rem;
+		padding-top: .3rem;
+		margin-top: 0;
+		margin-bottom: .5rem;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+		font-weight: 500;
+
+		@mixin atSmall {
+			margin-bottom: 1rem;
+			font-size: 1.2rem;
+		}
+	}
+}
