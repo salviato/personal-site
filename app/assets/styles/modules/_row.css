@@ -45,7 +45,7 @@
 		}
 	}
 
-	&--equal-height-at-medium { /* TGO: Selector flexbox is to change for older browsers. Modernizr package */
+	.flexbox &--equal-height-at-medium {
 
 		@mixin atMedium {
 			display: flex;

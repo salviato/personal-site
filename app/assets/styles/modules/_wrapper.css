@@ -6,6 +6,10 @@
 	margin-right: auto;
 	margin-left: auto;
 
+	&--narrow {
+		max-width: 550px;
+	}
+
 	&--b-margin {
 		margin-bottom: 2rem;
 

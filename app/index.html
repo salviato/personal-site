@@ -7,30 +7,31 @@
   <meta name="keywords" content="Personal page, Personal Site, Resume, Web, Developer">
   <meta name="description" content="This is my personal web-page. Enjoy!">
   <link rel="stylesheet" href="temp/styles/styles.css">
-  <link rel="stylesheet" href="temp/styles/animate.changethewords.css"> <!-- tgo-->
+  <script src="temp/scripts/Vendor.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="wrapper">
       <div class="site-header__logo">
-        <img src="assets/images/logo_T.svg">
+        <div class="site-header__logo__graphic icon icon--logo_T">T</div>
       </div>
       <div class="site-header__menu-icon">
         <div class="site-header__menu-icon__middle"></div>
       </div>
       <div class="site-header__flag-container">
-          <img class="site-header__flag" src="assets/images/united-kingdom.svg">
-          <img class="site-header__flag site-header__flag--n-p-right" src="assets/images/brazil.svg">
-        </div>
+          <span class="site-header__flag icon icon--united-kingdom"></span>
+          <span class="site-header__flag site-header__flag--n-p-right icon icon--brazil"></span>
+      </div>
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a class="btn btn--font-white" href="#">Get in Touch</a>
+          <a class="btn btn--font-white open-modal" href="#">Get in Touch</a>
         </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#my-story">My Story</a></li>
+            <li><a href="#about-me" id="about-me-link">About Me</a></li>
+            <li><a href="#facts" id="facts-link">Facts</a></li>
+            <li><a href="#my-story" id="my-story-link">My Story</a></li>
+            <li><a href="#skills" id="skills-link">Skills</a></li>
           </ul>
         </nav>
       </div>
@@ -49,44 +50,44 @@
         </div>
       </div>
       <div class="row__medium-4 row__medium-4--f-right">
-        <img class="presentation__image" sizes="(min-width: 400px) 404px, 100vw" srcset="assets/images/personal.jpg 624w, assets/images/personal-hi-dpi.jpg 3024w" alt="Thiago Salviato">
+        <img class="presentation__image lazyload" sizes="(min-width: 400px) 404px, 100vw" data-srcset="assets/images/personal.jpg 624w, assets/images/personal-hi-dpi.jpg 3024w" alt="Thiago Salviato">
       </div>
   </div>
 
-  <div id="about-me" class="page-section page-section--logo">
+  <div id="about-me" class="page-section page-section--logo lazyload" data-matching-link="#about-me-link">
     <div class="wrapper">
       <div class="row generic-content-container">
         <div class="row__medium-4">
           <div class="about-me">
-            <img class="about-me__image" src="assets/images/face.jpg" alt="Thiago Face">
+            <img class="about-me__image lazyload" data-src="assets/images/face.jpg" alt="Thiago Face">
             <h3 class="about-me__detail"><strong>Email:</strong> salviato.thiago@gmail.com</h3>
             <h3 class="about-me__detail"><strong>Phone:</strong> +55 11 98304 3774</h3>
             <h3 class="about-me__detail"><strong>Freelance:</strong> Available</h3>
           </div>
         </div>
         <div class="row__medium-8 row--gutters">
-          <h2 class="section-title"><img class="section-title__icon" src="assets/images/about_me_gray.svg">Everything About Me</h2>
+          <h2 class="section-title"><span class="section-title__icon icon icon--about_me_gray"></span> Everything About Me</h2>
           <p>I work with technology for 13 years, accounting 15.000+ hours of participation in IT projects. <br> For me it is a pleasure work building IT solutions. Check out my story!</p>
           <div class="row__medium-6 row__medium-6--relative">
             <div class="feature-item feature-item--above">
-              <img class="feature-item__icon" src="assets/images/web_dev.svg">
+              <span class="feature-item__icon icon icon--web_dev"></span>
               <h3 class="feature-item__title">Web Development</h3>
               <p>Development of services for customers and projects of all sizes.</p>
             </div>
             <div class="feature-item feature-item--below">
-              <img class="feature-item__icon" src="assets/images/web_des.svg">
+              <span class="feature-item__icon icon icon--web_des"></span>
               <h3 class="feature-item__title">Web Designer</h3>
               <p>Creation of modern stylish websites according to the customers needs and market trends.</p>
             </div>
           </div>
           <div class="row__medium-6 row__medium-6--relative">
             <div class="feature-item feature-item--above">
-              <img  class="feature-item__icon" src="assets/images/software_eng.svg">
+              <span class="feature-item__icon icon icon--software_eng"></span>
               <h3 class="feature-item__title">Software Engineer</h3>
               <p>Analysis, functional specification, development, test, deployment and problems resolution, in both procedural and object-oriented programming.</p>
             </div>
             <div class="feature-item feature-item--below">
-              <img class="feature-item__icon" src="assets/images/project_management.svg">
+              <span class="feature-item__icon icon icon--project_management"></span>
               <h3 class="feature-item__title">Project Manager</h3>
               <p>Experience with agile project management, budget and risk control.</p>
             </div>
@@ -96,7 +97,7 @@
     </div>
   </div>
 
-  <div id="facts" class="page-section page-section--dark-blue">
+  <div id="facts" class="page-section page-section--dark-blue" data-matching-link="#facts-link">
     <div class="wrapper">
       <div class="facts">
         <div class="facts__item">
@@ -119,9 +120,9 @@
     </div>
   </div>
 
-  <div id="resume" class="page-section">
+  <div id="my-story" class="page-section" data-matching-link="#my-story-link">
     <div class="wrapper">
-      <h2 class="section-title"><img class="section-title__icon" src="assets/images/my_story_gray.svg">My Story</h2>
+      <h2 class="section-title"><span class="section-title__icon icon icon--my_story_gray"></span> My Story</h2>
       <div class="row row--gutters">
         <div class="row__medium-6">
           <h2 class="section-title__subtitle">My Experience</h2>
@@ -183,7 +184,7 @@
     </div>
   </div>        
 
-  <div id="skills" class="page-section page-section--gray">
+  <div id="skills" class="page-section page-section--gray" data-matching-link="#skills-link">
     <div class="wrapper">
       <h2 class="section-title section-title--white section-title--t-margin">Professional Skills</h2>
       <div class="skills">
@@ -232,13 +233,29 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; 2018 Thiago Salviato Loureiro.</span> <a class="btn" href="#">Get in Touch</a></p>  
+      <p><span class="site-footer__text">Copyright &copy; 2018 Thiago Salviato Loureiro.</span> <a class="btn open-modal" href="#">Get in Touch</a></p>  
     </div>
   </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> <!-- tgo -->
-  <script src="/temp/scripts/jquery.changethewords.js"></script> <!-- tgo -->
-  <script src="/temp/scripts/teste.js"></script> <!-- tgo -->
+  <div class="modal">
+    <h2 class="section-title section-title--blue section-title--t-margin--large"><span class="icon icon--mail modal__icon section-title__icon" ></span> Get in <strong>Touch</strong></h2>
+    <div class="wrapper wrapper--narrow">
+      <p class="modal__description">A blog will be in place soon. Until then, connect with me on any of the platforms below!</p>
+    </div>
+    <div class="social-icons">
+      <a href="#" class="social-icons__icon"><span class="icon icon--linkedin"></span></a>
+      <a href="#" class="social-icons__icon"><span class="icon icon--github"></span></a>
+      <a href="#" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
+      <a href="#" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
+    </div>
+    <div class="wrapper wrapper--narrow">
+      <p class="modal__description">Let me know you! Available to work in any location. Italian Citizenship.</p>
+    </div>
+    <div class="modal__close">X</div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="/temp/scripts/SettingsChangeWords.js"></script>
   <script src="/temp/scripts/App.js"></script>
 
 </body>

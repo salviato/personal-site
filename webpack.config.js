@@ -1,17 +1,19 @@
 const path = require('path');
 
 module.exports = {
-	
-//	entry: { // TGO: Entry the any files you want in a object //
-//		App: "./app/assets/scripts/App.js",
-//		Vendor: "./app/assets/scripts/Vendor.js"
-//	},
 
-	entry: "./app/assets/scripts/App.js",	
+//		entry: "./app/assets/scripts/App.js",	
+//		output: {
+//			path: path.resolve(__dirname, "./app/temp/scripts"),
+//			filename: "App.js"
+	
+	entry: {
+		App: "./app/assets/scripts/App.js",
+		Vendor: "./app/assets/scripts/Vendor.js"
+	},
 	output: {
 		path: path.resolve(__dirname, "./app/temp/scripts"),
-		filename: "App.js"
-//		filename: "[name].js"
+		filename: "[name].js"
 	},
 
 	module: {

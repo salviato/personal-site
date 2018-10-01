@@ -1,15 +1,21 @@
 .site-header {
 	position: absolute;
+	z-index: 2;
 	top: 0;
 	width: 100%;
 	transition: background-color .3s ease-out;
 
-	@mixin atMedium {
-		background-color: #000;
-	}
-
 	&--is-expanded {
 		background-color: rgba(0, 0, 0, .55);
+	}
+
+	@mixin atMedium {
+		position: fixed;
+		background-color: #000;
+
+		&--dark {
+			background-color: rgba(0, 0, 0, .55);
+		}
 	}
 
 	&__logo {
@@ -18,18 +24,27 @@
 		left: 50%;
 		transform: translateX(-50%) scale(.8);
 		transform-origin: 50% 0;
+		transition: transform .3s ease-out;
 		padding: 10px 36px;
 		background-color: $mainDarkBlue;
 
 		@mixin atMedium {
 			left: auto;
 			transform: translateX(0) scale(1);
+
+			.site-header--dark & {
+				transform: scale(.475);
+			}
 		}
+	}
+
+	&__logo__graphic {
+		text-indent: -9999px;
 	}
 
 	&__menu-icon {
 		position: absolute;
-		top: 21px;
+		top: 22px;
 		left: 20px;
 		width: 20px;
 		height: 19px;
@@ -96,28 +111,27 @@
 		
 		@mixin atMedium {
 			float: right;
-			padding-top: 25px;
+			padding-top: 26px;
 			margin-right: -15px;
 		}
 	}
 
 	&__flag-container {
-		position: absolute;
-		right: 0;
-		top: 0;
+		position: relative;
+		float: right;
 		transform: scale(.4);
-	
-		@mixin atMedium {
-			position: relative;
-			float: right;
-		}		
 	}
 
 	&__flag {
-		padding: 0 15px;
+		display: inline-block;
+		margin: 0 12px;
 
 		&--n-p-right {
-			margin-right: -67px;
+			margin-right: -75px;
+
+			@mixin atMedium {
+				margin-right: -55px;				
+			}
 		}
 	}
 

@@ -1,0 +1,133 @@
+		.icon {
+			background-image: url('../../assets/images/sprites/sprite-10854bdc.svg');
+		}
+
+		.no-svg .icon {
+			background-image: url('../../assets/images/sprites/sprite-10854bdc.png');
+		}
+
+	.icon--about_me {
+		width: 64px;
+		height: 64px;
+		background-position: 0 63.42182890855457%;
+	}
+
+	.icon--about_me_gray {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 0;
+	}
+
+	.icon--brazil {
+		width: 64px;
+		height: 64px;
+		background-position: 18.823529411764707% 63.42182890855457%;
+	}
+
+	.icon--facebook {
+		width: 90px;
+		height: 90px;
+		background-position: 0 39.936102236421725%;
+	}
+
+	.icon--github {
+		width: 90px;
+		height: 90px;
+		background-position: 28.662420382165607% 39.936102236421725%;
+	}
+
+	.icon--instagram {
+		width: 90px;
+		height: 90px;
+		background-position: 79.61783439490446% 0;
+	}
+
+	.icon--linkedin {
+		width: 90px;
+		height: 90px;
+		background-position: 79.61783439490446% 28.75399361022364%;
+	}
+
+	.icon--logo_T {
+		width: 125px;
+		height: 125px;
+		background-position: 0 0;
+	}
+
+	.icon--logo_T_gray {
+		width: 125px;
+		height: 125px;
+		background-position: 44.80286738351254% 0;
+	}
+
+	.icon--mail {
+		width: 64px;
+		height: 48px;
+		background-position: 37.64705882352941% 60.563380281690144%;
+	}
+
+	.icon--my_story {
+		width: 64px;
+		height: 64px;
+		background-position: 52.94117647058823% 36.87315634218289%;
+	}
+
+	.icon--my_story_gray {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 18.87905604719764%;
+	}
+
+	.icon--project_management {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 37.75811209439528%;
+	}
+
+	.icon--project_management_gray {
+		width: 64px;
+		height: 64px;
+		background-position: 100% 56.63716814159292%;
+	}
+
+	.icon--software_eng {
+		width: 64px;
+		height: 64px;
+		background-position: 0 82.30088495575221%;
+	}
+
+	.icon--software_eng_gray {
+		width: 64px;
+		height: 64px;
+		background-position: 18.823529411764707% 82.30088495575221%;
+	}
+
+	.icon--united-kingdom {
+		width: 64px;
+		height: 64px;
+		background-position: 37.64705882352941% 82.30088495575221%;
+	}
+
+	.icon--web_des {
+		width: 60px;
+		height: 60px;
+		background-position: 0 100%;
+	}
+
+	.icon--web_des_gray {
+		width: 60px;
+		height: 60px;
+		background-position: 93.02325581395348% 81.34110787172011%;
+	}
+
+	.icon--web_dev {
+		width: 64px;
+		height: 64px;
+		background-position: 56.470588235294116% 82.30088495575221%;
+	}
+
+	.icon--web_dev_gray {
+		width: 64px;
+		height: 64px;
+		background-position: 75.29411764705883% 82.30088495575221%;
+	}

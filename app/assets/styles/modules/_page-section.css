@@ -7,9 +7,11 @@
 	}
 
 	&--logo {
-		background: url('../../assets/images/background_logo-hi-dpi.jpg') center no-repeat;
-		background-size: cover;
 
+		&.lazyloaded {
+			background: url('../../assets/images/background_logo-hi-dpi.jpg') center no-repeat;
+			background-size: cover;
+		}
 	}
 
 	&--dark-blue {
