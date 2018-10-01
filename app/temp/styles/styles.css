@@ -579,7 +579,7 @@ a {
 			overflow: hidden;
 			width: 180px;
 			height: 180px;
-			border: 4px solid rgba(255, 255, 255, .2)
+			border: 4px solid rgba(213,149,65, .2)
 	}
 	}
 
@@ -987,8 +987,22 @@ a {
 	}
 	}
 
-.resume-item p {;
+.resume-item p {
 		margin-bottom: 1rem;
+	}
+
+@media (min-width: 800px) {
+
+.resume-item--r-margin {
+			padding-right: 48px
+	}
+	}
+
+@media (min-width: 1010px) {
+
+.resume-item--r-margin {
+			padding-right: 213px
+	}
 	}
 
 .skills {
@@ -1094,8 +1108,8 @@ a {
 	}
 
 			.site-header--dark .site-header__logo {
-				-webkit-transform: scale(.475);
-				        transform: scale(.475);
+				-webkit-transform: scale(.47);
+				        transform: scale(.47);
 			}
 	}
 
@@ -1197,6 +1211,7 @@ a {
 		float: right;
 		-webkit-transform: scale(.4);
 		        transform: scale(.4);
+		z-index: 1;
 	}
 
 .site-header__flag {
@@ -1322,53 +1337,47 @@ a {
 	}
 
 .icon {
-			background-image: url('../../assets/images/sprites/sprite-10854bdc.svg');
+			background-image: url('../../assets/images/sprites/sprite-af6fa015.svg');
 		}
 
 .no-svg .icon {
-			background-image: url('../../assets/images/sprites/sprite-10854bdc.png');
+			background-image: url('../../assets/images/sprites/sprite-af6fa015.png');
 		}
-
-.icon--about_me {
-		width: 64px;
-		height: 64px;
-		background-position: 0 63.42182890855457%;
-	}
 
 .icon--about_me_gray {
 		width: 64px;
 		height: 64px;
-		background-position: 100% 0;
+		background-position: 70.49180327868852% 64.18604651162791%;
 	}
 
 .icon--brazil {
 		width: 64px;
 		height: 64px;
-		background-position: 18.823529411764707% 63.42182890855457%;
+		background-position: 0 100%;
 	}
 
 .icon--facebook {
 		width: 90px;
 		height: 90px;
-		background-position: 0 39.936102236421725%;
+		background-position: 44.80286738351254% 0;
 	}
 
 .icon--github {
 		width: 90px;
 		height: 90px;
-		background-position: 28.662420382165607% 39.936102236421725%;
+		background-position: 0 66.13756613756614%;
 	}
 
 .icon--instagram {
 		width: 90px;
 		height: 90px;
-		background-position: 79.61783439490446% 0;
+		background-position: 32.25806451612903% 66.13756613756614%;
 	}
 
 .icon--linkedin {
 		width: 90px;
 		height: 90px;
-		background-position: 79.61783439490446% 28.75399361022364%;
+		background-position: 77.06093189964157% 0;
 	}
 
 .icon--logo_T {
@@ -1377,82 +1386,46 @@ a {
 		background-position: 0 0;
 	}
 
-.icon--logo_T_gray {
-		width: 125px;
-		height: 125px;
-		background-position: 44.80286738351254% 0;
-	}
-
 .icon--mail {
 		width: 64px;
 		height: 48px;
-		background-position: 37.64705882352941% 60.563380281690144%;
-	}
-
-.icon--my_story {
-		width: 64px;
-		height: 64px;
-		background-position: 52.94117647058823% 36.87315634218289%;
+		background-position: 70.49180327868852% 38.96103896103896%;
 	}
 
 .icon--my_story_gray {
 		width: 64px;
 		height: 64px;
-		background-position: 100% 18.87905604719764%;
+		background-position: 20.983606557377048% 100%;
 	}
 
 .icon--project_management {
 		width: 64px;
 		height: 64px;
-		background-position: 100% 37.75811209439528%;
-	}
-
-.icon--project_management_gray {
-		width: 64px;
-		height: 64px;
-		background-position: 100% 56.63716814159292%;
+		background-position: 41.967213114754095% 100%;
 	}
 
 .icon--software_eng {
 		width: 64px;
 		height: 64px;
-		background-position: 0 82.30088495575221%;
-	}
-
-.icon--software_eng_gray {
-		width: 64px;
-		height: 64px;
-		background-position: 18.823529411764707% 82.30088495575221%;
+		background-position: 62.950819672131146% 100%;
 	}
 
 .icon--united-kingdom {
 		width: 64px;
 		height: 64px;
-		background-position: 37.64705882352941% 82.30088495575221%;
+		background-position: 100% 0;
 	}
 
 .icon--web_des {
 		width: 60px;
 		height: 60px;
-		background-position: 0 100%;
-	}
-
-.icon--web_des_gray {
-		width: 60px;
-		height: 60px;
-		background-position: 93.02325581395348% 81.34110787172011%;
+		background-position: 98.70550161812298% 58.44748858447488%;
 	}
 
 .icon--web_dev {
 		width: 64px;
 		height: 64px;
-		background-position: 56.470588235294116% 82.30088495575221%;
-	}
-
-.icon--web_dev_gray {
-		width: 64px;
-		height: 64px;
-		background-position: 75.29411764705883% 82.30088495575221%;
+		background-position: 100% 29.767441860465116%;
 	}
 
 .modal {

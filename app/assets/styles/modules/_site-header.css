@@ -33,7 +33,7 @@
 			transform: translateX(0) scale(1);
 
 			.site-header--dark & {
-				transform: scale(.475);
+				transform: scale(.47);
 			}
 		}
 	}
@@ -120,6 +120,7 @@
 		position: relative;
 		float: right;
 		transform: scale(.4);
+		z-index: 1;
 	}
 
 	&__flag {

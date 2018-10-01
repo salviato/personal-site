@@ -1,0 +1,1 @@
+$(function(){$("#changethewords").changeWords({time:2e3,animate:"flash",selector:"span",repeat:!0})});

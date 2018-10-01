@@ -96,7 +96,18 @@
 		}
 	}
 
-	p {;
+	p {
 		margin-bottom: 1rem;
+	}
+
+	&--r-margin {
+
+		@mixin atMedium {
+			padding-right: 48px;
+		}
+
+		@mixin atLarge {
+			padding-right: 213px;
+		}
 	}
 }
