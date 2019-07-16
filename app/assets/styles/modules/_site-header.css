@@ -26,7 +26,7 @@
 		transform-origin: 50% 0;
 		transition: transform .3s ease-out;
 		padding: 10px 36px;
-		background-color: $mainDarkBlue;
+		background-color: #000;
 
 		@mixin atMedium {
 			left: auto;

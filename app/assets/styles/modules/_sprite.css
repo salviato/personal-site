@@ -1,15 +1,15 @@
 		.icon {
-			background-image: url('../../assets/images/sprites/sprite-af6fa015.svg');
+			background-image: url('../../assets/images/sprites/sprite-8ab4f936.svg');
 		}
 
 		.no-svg .icon {
-			background-image: url('../../assets/images/sprites/sprite-af6fa015.png');
+			background-image: url('../../assets/images/sprites/sprite-8ab4f936.png');
 		}
 
 	.icon--about_me_gray {
 		width: 64px;
 		height: 64px;
-		background-position: 70.49180327868852% 64.18604651162791%;
+		background-position: 56.470588235294116% 100%;
 	}
 
 	.icon--brazil {
@@ -21,25 +21,25 @@
 	.icon--facebook {
 		width: 90px;
 		height: 90px;
-		background-position: 44.80286738351254% 0;
+		background-position: 0 66.13756613756614%;
 	}
 
 	.icon--github {
 		width: 90px;
 		height: 90px;
-		background-position: 0 66.13756613756614%;
+		background-position: 28.662420382165607% 66.13756613756614%;
 	}
 
 	.icon--instagram {
 		width: 90px;
 		height: 90px;
-		background-position: 32.25806451612903% 66.13756613756614%;
+		background-position: 79.61783439490446% 0;
 	}
 
 	.icon--linkedin {
 		width: 90px;
 		height: 90px;
-		background-position: 77.06093189964157% 0;
+		background-position: 79.61783439490446% 47.61904761904762%;
 	}
 
 	.icon--logo_T {
@@ -51,25 +51,31 @@
 	.icon--mail {
 		width: 64px;
 		height: 48px;
-		background-position: 70.49180327868852% 38.96103896103896%;
+		background-position: 52.94117647058823% 54.112554112554115%;
 	}
 
 	.icon--my_story_gray {
 		width: 64px;
 		height: 64px;
-		background-position: 20.983606557377048% 100%;
+		background-position: 18.823529411764707% 100%;
 	}
 
 	.icon--project_management {
 		width: 64px;
 		height: 64px;
-		background-position: 41.967213114754095% 100%;
+		background-position: 37.64705882352941% 100%;
+	}
+
+	.icon--resume {
+		width: 125px;
+		height: 125px;
+		background-position: 44.80286738351254% 0;
 	}
 
 	.icon--software_eng {
 		width: 64px;
 		height: 64px;
-		background-position: 62.950819672131146% 100%;
+		background-position: 75.29411764705883% 100%;
 	}
 
 	.icon--united-kingdom {
@@ -81,7 +87,7 @@
 	.icon--web_des {
 		width: 60px;
 		height: 60px;
-		background-position: 98.70550161812298% 58.44748858447488%;
+		background-position: 98.83720930232558% 58.44748858447488%;
 	}
 
 	.icon--web_dev {
