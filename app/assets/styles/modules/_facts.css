@@ -3,6 +3,7 @@
 
 	&__item {
 		display: block;
+		margin: 3rem 0;
 
 		@mixin atMedium {
 			display: inline-block;
@@ -17,7 +18,7 @@
 
 	&__detail {
 		color: #fff;
-		text-shadow: 2px 2px 0 rgba(255, 255, 255, .1);
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
 		font-weight: 500;
 
 		&--large {
@@ -26,15 +27,13 @@
 		}
 
 		&--small {
-			font-size: .9rem;	
+			font-size: 1.1rem;	
 			font-weight: 300;
 			margin-bottom: 1.6rem;
-		}
 
-		&--border {
-			display: inline-block;
-			padding: .6em .8em;
-			background-color: $mainGray;
+			@mixin atSmall {
+				font-size: 1.2rem;	
+			}
 		}
 	}
 }

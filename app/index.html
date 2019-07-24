@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
   <title>Home - Thiago Salviato Loureiro</title>
@@ -23,7 +24,7 @@
         <div class="site-header__menu-icon__middle"></div>
       </div>
       <div class="site-header__flag-container">
-          <a href="" id="en_en"><span class="site-header__flag icon icon--united-kingdom"></span></a>
+          <a href="" id="en_en"><span class="site-header__flag site-header__flag--border icon icon--united-kingdom"></span></a>
           <a href="index_pt.html" id="pt_br"><span class="site-header__flag site-header__flag--n-p-right icon icon--brazil"></span></a>
       </div>
       <div class="site-header__menu-content">
@@ -33,8 +34,8 @@
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
             <li><a href="#about-me" id="about-me-link">About Me</a></li>
+            <li><a href="#my-story" id="my-story-link">Trajectory</a></li>
             <li><a href="#facts" id="facts-link">Facts</a></li>
-            <li><a href="#my-story" id="my-story-link">My Story</a></li>
             <li><a href="#skills" id="skills-link">Skills</a></li>
           </ul>
         </nav>
@@ -44,81 +45,66 @@
 
   <div id="presentation" class="wrapper wrapper--b-margin row presentation">
       <div class="row__medium-8 presentation__text">
-        <h2 class="presentation__text--title">HELLO MY NAME IS</h2>
-        <h2 class="presentation__text--name">THIAGO SALVIATO</h2>
-        <div id="changethewords" class="presentation__text--description"> <!-- tgo below -->
-            I AM A
-            <span data-id="1"><strong>SOFTWARE ENGINEER</strong></span>
-            <span data-id="2"><strong>PROJECT MANAGER</strong></span>
-            <span data-id="3"><strong>FREELANCE</strong></span>
+        <h2 class="presentation__text--content">Thank you for visiting</h2>
+        <h2 class="presentation__text--name">My name is <strong>Thiago Salviato</strong></h2>
+        <div id="changethewords" class="presentation__text--content"> <!-- tgo below -->
+            I am a
+            <span data-id="1"><strong>Software Engineer</strong></span>
+            <span data-id="2"><strong>Project Manager</strong></span>
+            <span data-id="3"><strong>SEO Specialist</strong></span>
         </div>
       </div>
       <div class="row__medium-4 row__medium-4--f-right">
-        <img class="presentation__image lazyload" sizes="(min-width: 400px) 404px, 100vw" data-srcset="assets/images/personal.jpg 624w, assets/images/personal-hi-dpi.jpg 3024w" alt="Thiago Salviato">
+        <img class="presentation__image lazyload" data-src="assets/images/face.jpg" alt="Thiago Salviato">
+        <a class="btn btn--font-white btn--large btn--center btn--black open-modal" href="#">Get in Touch</a>
       </div>
   </div>
 
   <div id="about-me" class="page-section page-section--logo lazyload" data-matching-link="#about-me-link">
     <div class="wrapper">
       <div class="row generic-content-container">
-        <div class="row__medium-4">
-          <div class="about-me">
-            <img class="about-me__image lazyload" data-src="assets/images/face.jpg" alt="Thiago Face">
-            <h3 class="about-me__detail"><strong>Email:</strong> salviato.thiago@gmail.com</h3>
-            <h3 class="about-me__detail"><strong>Phone:</strong> +55 11 98304 3774</h3>
-            <h3 class="about-me__detail"><strong>Freelance:</strong> Available</h3>
-          </div>
-        </div>
-        <div class="row__medium-8 row--gutters">
-          <h2 class="section-title"><span class="section-title__icon icon icon--about_me_gray"></span> Everything About Me</h2>
-          <p>I've been working with technology for 13 years, accounting 15.000+ hours of participation in IT projects. <br> For me it is a pleasure work building IT solutions. Check out my story!</p>
+        <div class="row--gutters">
+          <h2 class="section-title"><span class="section-title__icon icon icon--about_me_gray"></span> About Me</h2>
+          <p>14 years of IT experience as systems analyst working in all steps of IT projects from requirements analysis to deployment.
+            <br>
+            <br>Project management, budget and risk control, certified Project Manager Professional - PMP.
+            <br>
+            <br>SEO (Search Engine Optimization), traffic, audience, strategy, segmentation and revenue trend analysis.
+            <br>
+            <br>Functional analysis, web development, .Net Framework, mainframe development.
+            <br>
+            <br>Experience to drive projects in agile methodology (scrum) working for multidisciplinary teams.
+            <br>
+            <br>11 years of work in financial services. Responsible for IT projects in several bank products.
+            <br>
+            <br>Postgraduate degree. Advanced English & Portuguese. Elementary proficiency in Spanish.
+            <br>
+            <br>Double citizenship, Brazilian & Italian.
+          </p>
           <div class="row__medium-6 row__medium-6--relative">
             <div class="feature-item feature-item--above">
               <span class="feature-item__icon icon icon--web_dev"></span>
               <h3 class="feature-item__title">Web Development</h3>
-              <p>Development of services for customers and projects of all sizes.</p>
+              <p>Development of web services (front-end & back-end) in small, medium and big projects.</p>
             </div>
             <div class="feature-item feature-item--below">
               <span class="feature-item__icon icon icon--web_des"></span>
               <h3 class="feature-item__title">Web Designer</h3>
-              <p>Creation of modern stylish websites according to the customers needs and market trends.</p>
+              <p>Creation of modern stylish websites up to date with best practices and trends.</p>
             </div>
           </div>
           <div class="row__medium-6 row__medium-6--relative">
             <div class="feature-item feature-item--above">
               <span class="feature-item__icon icon icon--software_eng"></span>
               <h3 class="feature-item__title">Software Engineer</h3>
-              <p>Analysis, functional specification, development, test, deployment and problems resolution, in both procedural and object-oriented programming.</p>
+              <p>Functional and technical analysis, documentation, development, test, deployment and problems resolution, in both procedural and object-oriented programming.</p>
             </div>
             <div class="feature-item feature-item--below">
               <span class="feature-item__icon icon icon--project_management"></span>
               <h3 class="feature-item__title">Project Manager</h3>
-              <p>Experience with agile project management, budget and risk control.</p>
+              <p>Experience with scrum project management, budget and risk control.</p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="facts" class="page-section page-section--dark-blue" data-matching-link="#facts-link">
-    <div class="wrapper">
-      <div class="facts">
-        <div class="facts__item">
-          <h2 class="facts__detail facts__detail--large">110+</h2>
-          <h3 class="facts__detail facts__detail--small facts__detail--border">Finished Projects</h3>
-        </div>
-        <div class="facts__item">
-          <h2 class="facts__detail facts__detail--large">150+</h2>
-          <h3 class="facts__detail facts__detail--small facts__detail--border">Happy Company Customers</h3>
-        </div>
-        <div class="facts__item">
-          <h2 class="facts__detail facts__detail--large">15.000+</h2>
-          <h3 class="facts__detail facts__detail--small facts__detail--border">Working Project Hours</h3>
-        </div>
-        <div class="facts__item">
-          <h2 class="facts__detail facts__detail--large">2500+</h2>
-          <h3 class="facts__detail facts__detail--small facts__detail--border">Coffee Cups</h3>
         </div>
       </div>
     </div>
@@ -126,134 +112,211 @@
 
   <div id="my-story" class="page-section" data-matching-link="#my-story-link">
     <div class="wrapper">
-      <h2 class="section-title"><span class="section-title__icon icon icon--my_story_gray"></span> My Story</h2>
+      <h2 class="section-title"><span class="section-title__icon icon icon--my_story_gray"></span> Trajectory</h2>
       <div class="row row--gutters">
         <div class="row__medium-6">
-          <h2 class="section-title__subtitle">My Experience</h2>
+          <h2 class="section-title__subtitle">Experience</h2>
         </div>
         <div class="row__medium-6">
-          <h2 class="section-title__subtitle section-title__subtitle--n-at-small">My Education</h2>
+          <h2 class="section-title__subtitle section-title__subtitle--n-at-small">Education</h2>
         </div>
       </div>
       <div class="row row--equal-height-at-medium row--gutters generic-content-container">
         <div class="row__medium-6">
           <div class="resume">
             <div class="resume-item wrapper">
-              <h3 class="resume-item__period">2007 - 2018</h3>
-              <h3 class="resume-item__company">Itau Bank</h3>
-              <h3 class="resume-item__function">Software Engineer</h3>
-              <p>Responsible for implement software solutions according to banking architecture view.<br>
-              I worked 10.000+ hours developing functions involving systemic improvements and new functionalities.</p>
+              <h3 class="resume-item__company">Microsoft</h3>
+              <h3 class="resume-item__period">2018 - 2019</h3>
+              <h3 class="resume-item__function">Software Engineer (SEO)</h3>
+              <p>Working on Bing Search of Brazilian and international markets my mission is to create opportunities of search engine optimizations and customers’ monetization results. One of the actions was to introduce an automation to classify trend queries available to run and to report search’s patterns in all markets of the World.
+                <br>
+                <br>Working on Bing Maps APIs, I helped customers to define appropriate services of maps and geo localization creating the best experience in their applications.
+              </p>
             </div>
             <div class="resume-item wrapper">
-              <h3 class="resume-item__period">2005 - 2007</h3>
+              <h3 class="resume-item__company">Itau</h3>
+              <h3 class="resume-item__period">2016 - 2018</h3>
+              <h3 class="resume-item__function">Team Leader</h3>
+              <p>Responsible for setting goals with clients and team members, managing capacity and tasks distribution. I worked in a squad with 16 members doing project management, monitoring of risks and budget control.
+                <br>
+                <br>Some examples include:
+                <br>--> Implementing a legal program involving 6 projects, working with monthly releases in agile methodology. The implantation allowed bank operates with 7 new card vendors companies estimating growth 45% anticipation of receivables by credit card.
+                <br>
+                <br>--> Implementing the new platform of slip payments, a legal demand involving all the Brazilian banks with more than 150 company employees involved and more than 200.000 hours of execution. The new system will eliminate losses by untrue slip payments in Brazil.
+              </p>
+              <h3 class="resume-item__period resume-item__period--n-top-margin">2007 - 2016</h3>
+              <h3 class="resume-item__function">Software Engineer</h3>
+              <p>Working as functional and technical member I conducted systems development from requirements to deployment.
+                <br>
+                <br>Responsible for development of banking IT systems I acquired knowledge of several financial market products, working more than 10.000 hours developing functions of systemic improvements and innovation.
+                <br>
+                <br>As a team member, I was responsible for implement software solutions according to banking architecture and market trends.
+                <br>
+                <br>Working as tech leader in a structural project with 26.000 hours of execution. The effort generates a corporative accounting database reducing about 70% the storage and processing costs to produce accounting transfers.
+              </p>
+            </div>
+            <div class="resume-item wrapper">
               <h3 class="resume-item__company">Accenture</h3>
-              <h3 class="resume-item__function">Developer</h3>
-              <p>As a IT developer, I worked for a global insurance company, responsible for systems development projects in Cobol.</p>
+              <h3 class="resume-item__period">2005 - 2007</h3>
+              <h3 class="resume-item__function">Programmer</h3>
+              <p>As a IT developer, I worked for a global insurance company, responsible for development of system in mainframe Cobol.</p>
             </div>
           </div>
         </div>
         
-        <h2 class="section-title__subtitle section-title__subtitle--y-at-small">My Education</h2>
+        <h2 class="section-title__subtitle section-title__subtitle--y-at-small">Education</h2>
         
         <div class="row__medium-6">
           <div class="resume">
             <div class="resume-item wrapper">
-              <h3 class="resume-item__period">2018</h3>
-              <h3 class="resume-item__company resume-item__company--f-right">University of Michigan</h3>
-              <h3 class="resume-item__function">Web Development</h3>
+                <h3 class="resume-item__company resume-item__company--f-right">Specialization</h3>
+              <h3 class="resume-item__period">2018</h3>              
+              <h3 class="resume-item__function">University of Michigan</h3>
               <p>Full Stack Web Development Specialization</p>
             </div>
             <div class="resume-item wrapper">
-              <h3 class="resume-item__period">2013</h3>
-              <h3 class="resume-item__company resume-item__company--f-right">Project Management Institute</h3>
-              <h3 class="resume-item__function">PMP</h3>
+                <h3 class="resume-item__company resume-item__company--f-right">PMP</h3>
+              <h3 class="resume-item__period">2013</h3>              
+              <h3 class="resume-item__function">Project Management Institute (PMI)</h3>
               <p>Project Management Professional</p>
             </div>
             <div class="resume-item wrapper">
+                <h3 class="resume-item__company resume-item__company--f-right">Postgraduate Degree</h3>
               <h3 class="resume-item__period">2010 - 2011</h3>
-              <h3 class="resume-item__company resume-item__company--f-right">Mackenzie University</h3>
-              <h3 class="resume-item__function">Postgraduate Degree</h3>
+              <h3 class="resume-item__function">Mackenzie University</h3>
               <p>Project Management</p>
             </div>
             <div class="resume-item wrapper">
-              <h3 class="resume-item__period">2004 - 2006</h3>
-              <h3 class="resume-item__company resume-item__company--f-right">College of Technology FATEC</h3>
-              <h3 class="resume-item__function">Bachelor Degree</h3>
+                <h3 class="resume-item__company resume-item__company--f-right">Bachelor Degree</h3>
+              <h3 class="resume-item__period">2004 - 2006</h3>              
+              <h3 class="resume-item__function">College of Technology FATEC</h3>
               <p>Information Technology Specialization with Emphasis in Business Management</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>        
+  </div>    
+  
+  <div id="facts" class="page-section page-section--dark-blue" data-matching-link="#facts-link">
+      <div class="wrapper">
+        <div class="facts">
+          <div class="facts__item">
+            <h2 class="facts__detail facts__detail--large">100+</h2>
+            <h3 class="facts__detail facts__detail--small">Finished Projects</h3>
+          </div>
+          <div class="facts__item">
+            <h2 class="facts__detail facts__detail--large">20+</h2>
+            <h3 class="facts__detail facts__detail--small">Happy Customers</h3>
+          </div>
+          <div class="facts__item">
+            <h2 class="facts__detail facts__detail--large">15.000+</h2>
+            <h3 class="facts__detail facts__detail--small">Working Project Hours</h3>
+          </div>
+          <div class="facts__item">
+            <h2 class="facts__detail facts__detail--large">500+</h2>
+            <h3 class="facts__detail facts__detail--small">IT Problems Solved</h3>
+          </div>
+        </div>
+      </div>
+  </div>
 
   <div id="skills" class="page-section page-section--gray" data-matching-link="#skills-link">
     <div class="wrapper">
-      <h2 class="section-title section-title--white section-title--t-margin">Professional Skills</h2>
-      <div class="skills">
-        <h3 class="skills__item">Front-end development</h3>
-        <h3 class="skills__item">Back-end development</h3>
-        <h3 class="skills__item">Object-Oriented Programming (OOP)</h3>
-        <h3 class="skills__item">Web-Design</h3>
-        <h3 class="skills__item">HTML</h3>
-        <h3 class="skills__item">CSS</h3>
-        <h3 class="skills__item">JavaScript</h3>
-        <h3 class="skills__item">jQuery</h3>
-        <h3 class="skills__item">Node.js</h3>
-        <h3 class="skills__item">Git</h3>
-        <h3 class="skills__item">Github</h3>
-        <h3 class="skills__item">NPM</h3>
-        <h3 class="skills__item">Gulp</h3>
-        <h3 class="skills__item">WebPack</h3>
-        <h3 class="skills__item">Mainframe</h3>
-        <h3 class="skills__item">Procedural Development</h3>
-        <h3 class="skills__item">Cobol</h3>
-        <h3 class="skills__item">JCL</h3>
-        <h3 class="skills__item">DB2</h3>
-        <h3 class="skills__item">TSO</h3>
-        <h3 class="skills__item">CICS</h3>
-        <h3 class="skills__item">IMS</h3>
-        <h3 class="skills__item">Easytrieve</h3>
-        <h3 class="skills__item">Project Management</h3>
-        <h3 class="skills__item">Agile Methodologies</h3>
-        <h3 class="skills__item">Scrum</h3>
-        <h3 class="skills__item">Requirements Analysis</h3>
-        <h3 class="skills__item">IT Governance</h3>
-        <h3 class="skills__item">Financial Services</h3>
-        <h3 class="skills__item">Bank Products</h3>
+        <h2 class="section-title section-title--black section-title--t-margin">Skills</h2>
+      <div class="row row--gutters">
+        <div class="row__medium-6">
+          <h2 class="section-title__subtitle section-title--black">Professional</h2>
+        </div>
+        <div class="row__medium-6">
+          <h2 class="section-title__subtitle section-title--black section-title__subtitle--n-at-small">Language</h2>
+        </div>
       </div>
-      <h2 class="section-title section-title--white section-title--t-margin">Personal Skills</h2>
-      <div class="skills">
-        <h3 class="skills__item">Team Work</h3>
-        <h3 class="skills__item">Communicantion</h3>
-        <h3 class="skills__item">English</h3>
-        <h3 class="skills__item">Portuguese</h3>
-        <h3 class="skills__item">Spanish, elementary proficiency</h3>
+      <div class="row row--gutters generic-content-container">
+        <div class="row__medium-6">
+          <div class="resume-item wrapper">
+            <h3 class="resume-item__skills">IT Governance</h3>
+            <h3 class="resume-item__skills">Project Management</h3>
+            <h3 class="resume-item__skills">Financial Services</h3>
+            <h3 class="resume-item__skills">Bank Products</h3>
+            <h3 class="resume-item__skills">Agile Methodologies</h3>
+            <h3 class="resume-item__skills">Scrum</h3>
+            <h3 class="resume-item__skills">Object-Oriented Programming (OOP)</h3>
+            <h3 class="resume-item__skills">Procedural Programming</h3>
+            <h3 class="resume-item__skills">SEO (Search Engine Optimization)</h3>
+            <h3 class="resume-item__skills">Front-end development</h3>
+            <h3 class="resume-item__skills resume-item__skills--n-bottom-margin">Back-end development</h3>
+          </div>
+        </div>
+        <h2 class="section-title__subtitle section-title--black section-title__subtitle--y-at-small">Language</h2>
+        <div class="row__medium-6">
+          <div class="resume-item wrapper">
+              <h3 class="resume-item__skills">English - Advanced</h3>
+              <h3 class="resume-item__skills">Portuguese - First Language</h3>
+              <h3 class="resume-item__skills resume-item__skills--n-bottom-margin">Spanish - Elementary Proficiency</h3>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; 2018 Thiago Salviato Loureiro.</span> <a class="btn open-modal" href="#">Get in Touch</a></p>  
+      <p><span class="site-footer__text">Powered by me :-) Thank you for visiting.</span> <a class="btn open-modal" href="#">Get in Touch</a></p>  
     </div>
   </footer>
 
   <div class="modal">
-    <h2 class="section-title section-title--blue section-title--t-margin--large"><span class="icon icon--mail modal__icon section-title__icon" ></span> Get in <strong>Touch</strong></h2>
-    <div class="wrapper wrapper--narrow">
-      <p class="modal__description">A blog will be in place soon. Until then, connect with me on any of the platforms below!</p>
+    <h2 class="section-title section-title--blue section-title--t-margin--small-until-medium section-title--b-margin"><span class="icon icon--mail modal__icon section-title__icon" ></span> Get in <strong>Touch</strong></h2>
+    <div class="row row--gutters generic-content-container generic-content-container--center">
+      <div class="row__medium-6">    
+        <div class="wrapper wrapper--narrow">
+          <p>A blog will be in place soon. Until then, connect with me on any of the platforms below!</p>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/thiago-salviato/" class="social-icons__icon"><span class="icon icon--linkedin"></span></a>
+          <a href="https://github.com/salviato/" class="social-icons__icon"><span class="icon icon--github"></span></a>
+          <a href="https://www.instagram.com/thiagoloureiro_/" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
+          <a href="https://www.facebook.com/thiago.loureiro.3" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
+        </div>
+        <div class="wrapper wrapper--narrow">
+          <p>Let me know you! Available to work in any location. Italian Citizenship.</p>
+        </div>
+      </div>
+      <div class="row__medium-6">    
+        <div class="wrapper wrapper--narrow">
+          <div class="container-contact">      
+            <form class="contact-form validate-form">
+              
+              <div class="wrap-input validate-input" data-validate="Name is required">
+                <input class="input" id="name" type="text" name="name" placeholder="Name">
+                <label class="label-input" for="name">
+                  <span class="lnr lnr-user"></span>
+                </label>
+              </div>
+            
+              <div class="wrap-input validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                <input class="input" id="email" type="text" name="email" placeholder="Email">
+                <label class="label-input" for="email">
+                  <span class="lnr lnr-envelope"></span>
+                </label>
+              </div>
+            
+              <div class="wrap-input validate-input" data-validate = "Message is required">
+                <textarea class="input" name="message" placeholder="Your message..."></textarea>
+              </div>
+          
+              <button class="btn btn--font-white btn--pointer">
+                  Send Email
+              </button>
+            
+            </form>    
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/thiago-salviato/" class="social-icons__icon"><span class="icon icon--linkedin"></span></a>
-      <a href="https://github.com/salviato/" class="social-icons__icon"><span class="icon icon--github"></span></a>
-      <a href="https://www.instagram.com/thiagoloureiro_/" class="social-icons__icon"><span class="icon icon--instagram"></span></a>
-      <a href="https://www.facebook.com/thiago.loureiro.3" class="social-icons__icon"><span class="icon icon--facebook"></span></a>
-    </div>
-    <div class="wrapper wrapper--narrow">
-      <p class="modal__description">Let me know you! Available to work in any location. Italian Citizenship.</p>
-    </div>
+
+
     <div class="modal__close">X</div>
   </div>
 
@@ -261,7 +324,7 @@
   <!-- build:js assets/scripts/SettingsChangeWords.js -->
   <script src="/temp/scripts/SettingsChangeWords.js"></script>
   <!-- endbuild -->
-  <!-- build:js assets/scripts/App.js -->
+  <!-- build:js assets/scripts/App.js -->  
   <script src="/temp/scripts/App.js"></script>
   <!-- endbuild -->
 

@@ -1,0 +1,155 @@
+  input {
+      outline: none;
+      border: none;
+  }
+  
+  input[type="number"] {
+      appearance: none;
+  }  
+  textarea {
+    outline: none;
+    border: none;
+  }
+  
+  textarea:focus, input:focus {
+    border-color: transparent !important;
+  }
+  
+  /*---------------------------------------------*/
+  
+  .container-contact {
+    width: 100%;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #e6e6e6;
+    
+  }
+  
+  .wrap-contact {
+    width: 550px;
+    background: transparent;
+    padding: 30px 0 80px 0;
+  }
+  
+  /*==================================================================
+  [ Form ]*/
+  
+  .contact-form {
+    width: 100%;
+  }
+  
+  /*------------------------------------------------------------------
+  [ Input ]*/
+  
+  .wrap-input {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 17px;
+  }
+  
+  .label-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 62px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    color: $mainGray;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: $mainGray;
+    line-height: 1.2;
+    padding: 0 5px;
+  }
+  
+  /*---------------------------------------------*/
+  
+  input.input {
+    height: 52px;
+    padding: 0 20px 0 58px;
+    font-weight: 300;
+    color: $mainGray;
+
+    @mixin atSmall {
+        height: 62px;
+        font-size: 1.125rem;
+    }
+  }
+  
+  textarea.input {
+    min-height: 100px;
+    padding: 19px 20px 0 23px;
+    font-weight: 300;
+
+    @mixin atSmall {
+        font-size: 1.125rem;
+    }
+  }
+  
+  /*------------------------------------------------------------------
+  [ Alert validate ]*/
+  
+  .validate-input {
+    position: relative;
+    font-weight: 300;
+  }
+  
+  .alert-validate::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 2px;
+    padding: 4px 25px 4px 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2px;
+    pointer-events: none;
+    color: #c80000;
+    line-height: 1.4;
+    text-align: left;
+  
+    visibility: hidden;
+    opacity: 0;
+  
+    transition: opacity 0.4s;
+  }
+  
+  .alert-validate::after {
+    content: "\f06a";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #c80000;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+  }
+  
+  .alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  @media (max-width: 992px) {
+    .alert-validate::before {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  
+  
+  
+  

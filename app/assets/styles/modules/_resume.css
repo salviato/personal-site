@@ -6,7 +6,7 @@
 .resume-item {
 	position: relative;
 
-	&__period {
+	&__company {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
@@ -14,52 +14,33 @@
 		padding: .8rem 1.2rem;
 		background-color: $mainDarkBlue;
 		color: #fff;
-		font-size: 1rem;
+		font-size: 1.1rem;
 		text-shadow: 2px 2px 0 rgba(255, 255, 255, .1);
+		font-weight: 500;
 
 		@mixin atSmall {
 			left: 0;
 			transform: translateX(0);
-			font-size: 1.15rem;
+			font-size: 1.2rem;
 			padding: 1rem 1.5rem;
-		}
-
-		@mixin atMedium {
-			font-size: 1rem;
-		}
-
-		@mixin atLarge {
-			font-size: 1.15rem;
-		}
+		}	
 	}
 
-	&__company {
+	&__period {
 		text-align: center;
 		margin-top: 5rem;
-		font-size: 1.2rem;
-		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+		font-size: 1.1rem;
+		text-shadow: 1.5px 1.5px 0 rgba(0, 0, 0, .1);
 		font-weight: 500;
 
 		@mixin atSmall {
 			text-align: left;
-			position: absolute;
-			top: .6rem;
-			left: 50%;
-			margin-top: 1.3rem;
-			transform: translateX(-50%);
-			font-size: 1.4rem;
-		}
-
-		@mixin atMedium {
+			left: 11%;
+			margin-top: 6.5rem;
 			font-size: 1.2rem;
 		}
 
-		@mixin atLarge {
-			font-size: 1.4rem;
-		}
-
 		&--f-right {
-			transform: translateX(0);
 
 			@mixin atSmall {
 				left: 32%
@@ -72,6 +53,10 @@
 				left: 32%;
 			}
 		}
+
+		&--n-top-margin {
+			margin-top: 2.5rem;
+		}
 	}
 
 	&__function {
@@ -82,22 +67,14 @@
 		margin-bottom: .5rem;
 
 		@mixin atSmall {
-			margin-top: 6.5rem;
+			margin-top: 1.5rem;
 			margin-bottom: 1rem;
-			font-size: 1.2rem;
-		}
-
-		@mixin atMedium {
-			font-size: 1.1rem;
-		}
-
-		@mixin atLarge {
 			font-size: 1.2rem;
 		}
 	}
 
 	p {
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 
 	&--r-margin {
@@ -108,6 +85,24 @@
 
 		@mixin atLarge {
 			padding-right: 213px;
+		}
+	}
+
+	&__skills {
+		display: block;
+		color: #fff;
+		text-align: center;
+		margin: 1rem auto 3rem auto;
+		font-size: 1.1rem;
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
+		font-weight: 300;
+		
+		@mixin atSmall {
+			font-size: 1.2rem;
+		}
+
+		&--n-bottom-margin {
+			margin-bottom: 1rem;
 		}
 	}
 }

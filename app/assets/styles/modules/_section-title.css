@@ -20,14 +20,30 @@
 			margin-top: 1.5rem;			
 		}
 
-		&--large {
-			margin-top: 6rem;
+		&--small-until-medium {
+			margin-top: 1rem;
+
+			@mixin atMedium {
+				margin-top: 6rem;
+			}
+		}
+	}
+
+	&--b-margin {
+		margin-bottom: 1.5rem;
+
+		@mixin atMedium {
+			margin-bottom: 6rem;			
 		}
 	}
 
 	&--white {
 			color: #fff;
 	}
+
+	&--black {
+		color: #000;
+}
 
 	&--blue {
 			color: $mainDarkBlue;

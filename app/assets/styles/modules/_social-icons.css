@@ -4,13 +4,12 @@
 	&__icon {
 		background-color: $mainGray;
 		display: inline-block;
-		margin: 0 5px 5px 5px;
-		width: 33%;
+		margin: 20px 5px;
+		width: 90px;
 		height: 90px;
 		position: relative;
 
 		@mixin atSmall {
-			width: 90px;
 			margin: 20px 10px;
 		}
 

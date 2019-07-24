@@ -54,7 +54,7 @@
 		@mixin atMedium {
 			& > div {
 				float: none;
-				display: flex;
+				display: flex;			
 			}
 		}
 	}

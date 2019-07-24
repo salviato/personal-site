@@ -7,4 +7,26 @@
 	&--font-white {
 		color: #fff;
 	}
+
+	&--large {
+		padding: 1rem 2rem;
+		font-size: 1.5rem;
+	}
+
+	&--center {
+		display: block;	
+		text-align: center;	
+		margin-left: auto;
+		margin-right: auto;
+		width: 270px;
+	}
+
+	&--black {
+		background-color: #000;
+	}
+
+	&--pointer {
+		cursor: pointer;
+	}
+	
 }

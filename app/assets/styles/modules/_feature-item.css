@@ -5,7 +5,8 @@
 	&--above {
 
 		@mixin atMedium {
-			padding-bottom: 11.5rem;	
+			margin-top: 2rem;
+			padding-bottom: 8.5rem;	
 		}
 	}
 
@@ -13,12 +14,12 @@
 
 		@mixin atMedium {
 			position: absolute;
-			top: 24em;
+			top: 15em;
 		}
 
 		@mixin atLarge {
 			position: absolute;
-			top: 17em;			
+			top: 13em;			
 		}
 	}
 

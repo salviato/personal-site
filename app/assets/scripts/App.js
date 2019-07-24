@@ -4,6 +4,7 @@ import RevealOnScroll from './modules/RevealOnScroll';
 import StickyHeader from './modules/StickyHeader';
 import Modal from './modules/Modal';
 import ChangeTheWords from './modules/ChangeTheWords';
+import FormMessage from './modules/FormMessage';
 
 var mobileMenu = new MobileMenu();
 

@@ -23,18 +23,6 @@
 		top: 10px;
 	}
 
-	&__description {
-		text-align: center;
-		font-weight: 300;
-		font-size: 1.2rem;
-		margin: 2rem 0;
-		line-height: 1.5;
-
-		@mixin atSmall {
-			font-size: 1.5rem;
-		}
-	}
-
 	&__close {
 		position: absolute;
 		top: 15px;
@@ -42,11 +30,11 @@
 		font-size: 2rem;
 		transform: scaleX(1.2);
 		transform-origin: 100% 0;
-		color: $mainDarkBlue;
+		color: $mainGray;
 		cursor: pointer;
 
 		&:hover {
-			color: $mainOrange;
+			color: $mainDarkBlue;
 		}
 	}
 }
