@@ -6,12 +6,8 @@
   <title>Home - Thiago Salviato Loureiro</title>
   <meta name="keywords" content="Personal page, Personal Site, Resume, Web, Developer">
   <meta name="description" content="This is my personal web-page. Enjoy!">
-  <!-- build:css assets/styles/styles.css -->
-  <link rel="stylesheet" href="temp/styles/styles.css">
-  <!-- endbuild -->
-  <!-- build:js assets/scripts/Vendor.js -->
-  <script src="temp/scripts/Vendor.js"></script>
-  <!-- endbuild -->
+  <link rel="stylesheet" href="public/assets/styles/styles-e623840ec3.css"/>
+  <script src="public/assets/scripts/Vendor-b6c7f42d41.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -23,7 +19,7 @@
         <div class="site-header__menu-icon__middle"></div>
       </div>
       <div class="site-header__flag-container">
-          <a href="index.html" id="en_en"><span class="site-header__flag icon icon--united-kingdom"></span></a>
+          <a href="/" id="en_en"><span class="site-header__flag icon icon--united-kingdom"></span></a>
           <a href="" id="pt_br"><span class="site-header__flag site-header__flag--border site-header__flag--n-p-right icon icon--brazil"></span></a>
       </div>
       <div class="site-header__menu-content">
@@ -54,7 +50,7 @@
         </div>
       </div>
       <div class="row__medium-4 row__medium-4--f-right">
-        <img class="presentation__image lazyload" data-src="assets/images/face.jpg" alt="Thiago Salviato">
+        <img class="presentation__image lazyload" data-src="public/assets/images/face.jpg" alt="Thiago Salviato">
         <a class="btn btn--font-white btn--large btn--center btn--black open-modal" href="#">Mantenha Contato</a>
       </div>
   </div>
@@ -287,8 +283,8 @@
       <div class="row__medium-6">    
         <div class="wrapper wrapper--narrow">
           <div class="container-contact">      
-            <form class="contact-form validate-form">
-              
+            <form method="POST" action="enviar" class="contact-form validate-form">
+              {{msg}}
               <div class="wrap-input validate-input" data-validate="Nome é obrigatório">
                 <input class="input" id="name" type="text" name="name" placeholder="Nome">
                 <label class="label-input" for="name">
@@ -307,7 +303,7 @@
                 <textarea class="input" name="message" placeholder="Mensagem..."></textarea>
               </div>
           
-              <button class="btn btn--font-white btn--pointer">
+              <button type="submit" class="btn btn--font-white btn--pointer">
                   Enviar Mensagem
               </button>
             </form>    
@@ -319,12 +315,8 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- build:js assets/scripts/SettingsChangeWords.js -->
-  <script src="/temp/scripts/SettingsChangeWords.js"></script>
-  <!-- endbuild -->
-  <!-- build:js assets/scripts/App.js -->
-  <script src="/temp/scripts/App.js"></script>
-  <!-- endbuild -->
+  <script src="public/assets/scripts/SettingsChangeWords-76b1b90b14.js"></script>
+  <script src="public/assets/scripts/App-7a838028d7.js"></script>
 
 </body>
 </html>
