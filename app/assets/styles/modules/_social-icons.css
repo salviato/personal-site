@@ -4,20 +4,29 @@
 	&__icon {
 		background-color: $mainGray;
 		display: inline-block;
-		margin: 20px 5px;
-		width: 90px;
-		height: 90px;
+		margin: 5px 5px;
+		width: 35px;
+		height: 35px;
 		position: relative;
 
 		@mixin atSmall {
 			margin: 20px 10px;
+			width: 90px;
+			height: 90px;
 		}
 
 		.icon {
 			display: block;
 			position: absolute;
-			left: 50%;
-			transform: translateX(-50%);
+			left: -78%;
+			top: -75%;
+			transform: scale(.3);
+
+			@mixin atSmall {
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%) scale(1);
+			}
 		}
 	}
 }
